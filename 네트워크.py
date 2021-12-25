@@ -3,6 +3,7 @@ def dfs(computers, n):
     if not computers[n][n]:    
         return False
     
+    #computers[n][n] = 1
     computers[n][n] = 0
     
     for i in range (len(computers)):
